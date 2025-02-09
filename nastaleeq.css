@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: 'ivote';
+    src: url('../fonts/ivotenastaleeq-webfont.ttf') format('opentype'),
+         url('../fonts/ivotenastaleeq-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family:'FontNadra';
+	src:url('../fonts/NafeesNastaleeq.ttf');
+}
+
+@font-face {
+	font-family: 'mher';
+	src: url('../fonts/mehr.ttf')  format('opentype');
+}
+
+.nadra-font{
+	font-family: mher !important;
+	line-height: 2 !important;
+	font-size: 20px !important;
+}
+
+.urdu-text-lg{
+	font-family: mher !important;
+	line-height: 42px !important;
+	font-size: 36px !important;
+}
+
+.urdu-text{
+	font-family: mher !important;
+	line-height: 42px !important;
+	font-size: 32px !important;
+}
+
+.urdu-text-md{
+	font-family: mher !important;
+	line-height: 42px !important;
+	font-size: 30px !important;
+}
+
+.urdu-text-sm{
+	font-family: mher !important;
+	line-height: 42px !important;
+	font-size: 22px !important;
+}
+
+.urdu-paragraph{
+	font-family: mher !important;
+	line-height: 84px !important;
+	font-size: 32px !important;
+}
+
+.urdu-error{
+	font-family: mher !important;
+	font-size: 1.5em !important;
+}
+
+.urdu-heading{
+	font-family: mher !important;
+	line-height: 2 !important;
+	font-size: 46px !important;
+}
+
+.urdu-sub-heading{
+	font-family: mher !important;
+	line-height: 2 !important;
+	font-size: 32px !important;
+}
+
+.urdu-sub-heading-md-ul{
+	font-family: mher !important;
+	line-height: 2 !important;
+	font-size: 26px !important;
+	text-decoration: underline;
+    color: #ce1421;
+}
+
+.eng-sub-heading-md-ul{
+	line-height: 2 !important;
+	font-size: 26px !important;
+	text-decoration: underline;
+    color: #ce1421;
+}
+
+.nafees{
+	font-family: 'nafees';
+}
+
+.mher{
+	font-family: 'mher';
+}
+
+.urdu-text-menu {
+    font-family: mher !important;
+    font-size: 20px !important;
+}
+
+
+@media (max-width: 500px) {
+	.eng-sub-heading-md-ul {
+	    line-height: 2 !important;
+	    font-size: 20px !important;
+	    text-decoration: underline;
+	    color: #ce1421;
+	    text-align: center;
+	}
+	
+	.urdu-heading {
+	    font-size: 35px !important;
+	}
+	
+	.urdu-text {
+	    font-size: 24px !important;
+	}
+	
+	.urdu-sub-heading {
+	    font-size: 26px !important;
+	}
+	
+	.urdu-paragraph {
+	    line-height: 60px !important;
+	    font-size: 26px !important;
+	}
+	
+	.urdu-text-menu {
+	    font-size: 24px !important;
+	}
+	
+	.urdu-text-md{
+		font-family: mher !important;
+		line-height: 42px !important;
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 992px) {
+	.urdu-text-menu {
+	    font-size: 25px !important;
+	}	
+}
